@@ -1,5 +1,3 @@
-
-
 # 1. Crear un nuevo ámbito DHCP llamado RedInterna con IPs de 192.168.100.10 a 192.168.100.100
 Add-DhcpServerv4Scope -Name "RedInterna" -StartRange 192.168.100.10 -EndRange 192.168.100.100 -SubnetMask 255.255.255.0
 
